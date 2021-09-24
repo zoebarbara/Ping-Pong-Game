@@ -1,14 +1,20 @@
-# PONG
-Tasks list
+# PING PONG GAME 
 
-## Layout
+
+Made with **HTML, CSS, JS** using canvas.
+
+<img src="https://github.com/zoebarbara/zoebarbara/blob/main/PONG.gif" width="85%" height='auto'/>
+
+## Tasks list
+
+### Layout
 - Header
 - Main
   - Menu
   - Game
   - Score
 
-## Estados
+### Estados
 - General
   - status: playing | paused
   - scorePlayerA
@@ -19,7 +25,7 @@ Tasks list
   - ballPosition
   - ballDirection: tl | tr | br | bl
 
-## Acciones
+### Acciones
 - Jugar
   - General -> status = playing
     - Bola se mueve
