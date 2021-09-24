@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Pong</title>
+</head>
+
+<body>
+  <header><img src="img/1.png" alt="logo pong"></header>
+  <main>
+    <div class="menu">
+      <button id="play_pause_button">Play</button>
+      <button id="new_game_button">New Game</button>
+    </div>
+   
+    <div id="board" class="board">
+      <div class="gol"> ¡¡GOL!!</div>
+    </div>
+    <div class="score">
+      <div class="score__title">
+        <img src="img/3.png" alt="">
+        <p>SCORE PLAYER 1</p>
+      </div>
+
+      <div class="score__panel" id="player_a_score"></div>
+
+      <div class="score__title">
+        <img src="img/3.png" alt="">
+        <p>SCORE PLAYER 2</p>
+      </div>
+      <div class="score__panel" id="player_b_score"></div>
+    </div>
+  </main>
+  <script src="./pong.js"></script>
+</body>
+
+</html>
